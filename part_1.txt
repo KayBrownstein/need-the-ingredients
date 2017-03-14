@@ -1,0 +1,12 @@
+# We are using the --data option for curl to indicate that data will be included in our request. We are posting.
+
+# I ran ruby server.rb in my terminal, then opened the browser to the local host.
+# I opened a new window in the terminal to run the curl command below. I used an example in the reading for the syntax.
+# curl --data "ingredient=3 tablespoons good olive oil" http://localhost:4567/ingredients
+
+# I found the key, "ingredient" in the server.rb file. I used this code: ingredient = params['ingredient']
+# I found the value, "3 tablespoons good olive oil", via the .md file.
+
+# I found the full path we are posting to via the server.rb file: "post '/ingredients'".
+
+# Summary SHORT: used the above line in the terminal; altered for each ingredient; it added the items to this file
